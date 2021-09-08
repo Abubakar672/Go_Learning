@@ -212,12 +212,12 @@ NINJA LEVEL 1
 // import "fmt"
 
 // func main(){
-// //1
+ /*1*/
 // x := 123
 // y:= "James Bond"
 // z:= "True"
 
-// /* 2 */
+ /* 2 */
 // //Single Printing
 // fmt.Println(x,y,z)
 
@@ -247,6 +247,18 @@ NINJA LEVEL 1
 
 //Exercise 3
 
+// package main
+// import "fmt"
+
+// var x int = 42
+// var y string = "James Bond"
+// var z bool = true
+
+// func main(){
+
+// s := fmt.Sprintf("%v\t","%v\t","%v\t", x,y,z)
+// fmt.Println(s)
+// }
 
 
 
