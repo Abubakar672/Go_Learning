@@ -91,6 +91,18 @@ Control flow is the flow control in which the function call are been executed me
 // }
 
 
+/* := short decleration operator as it allows to write code and declare available 
+*/
+
+/*   
+
+x:=42    here we are declaring the variabel x with a value of 42
+fmt.Println(x)
+x=2   now here we are asssinging x with a value of 2 as x is already declared up there 
+fmt.Println(x)
+
+*/
+
 // func foo(){
 //   fmt.Println("HI ")
 // }
@@ -110,5 +122,134 @@ Control flow is the flow control in which the function call are been executed me
 *                         CODE 2                             *
 **************************************************************
 */
+
+// package main
+
+// import "fmt"
+
+// func main(){
+//   x:= 45
+//   fmt.Println(x)
+//   x=120
+//   fmt.Println(x)
+// }
+
+/*
+**************************************************************
+*                         CODE 3                             *
+**************************************************************
+
+difference between the var keyword and the short hand operator =: is this that the var have global scope and the short hand operator := can only be used inside the function and in order to print out the 
+*/
+
+//creating our own datatype 
+/*
+package main
+import "fmt"
+var a string
+type boy int 
+var b boy
+type student string
+var male student
+
+func main(){
+a= "asd"
+b=12
+male= "AbuBakar"
+
+fmt.Println(a);
+fmt.Println(b);
+fmt.Println(male);
+ }
+*/
+
+
+/*
+**************************************************************
+*                         CODE 4                             *
+**************************************************************
+
+conversion of datatypes in golang 
+*/
+
+// package main 
+// import "fmt"
+
+// var a int 
+// type boy int
+// var b boy
+
+// func main (){
+// a=2
+// b=256
+
+// //As now if we do as a=b so it will give error as the a has an int data type 
+// //while b is of boy datatype so here comes the conversion shown as followed 
+
+// fmt.Println("Before conversion")
+// fmt.Println(a)
+// fmt.Println(b)
+
+// a=int(b)
+
+// fmt.Println("After conversion")
+// fmt.Println(a)
+// fmt.Println(b)
+
+// }
+
+/*
+**************************************************************
+*                         CODE 5                             *
+**************************************************************
+
+NINJA LEVEL 1
+*/
+
+//Exercise 1
+
+// package main
+// import "fmt"
+
+// func main(){
+// //1
+// x := 123
+// y:= "James Bond"
+// z:= "True"
+
+// /* 2 */
+// //Single Printing
+// fmt.Println(x,y,z)
+
+// //Multiple Printing
+// fmt.Println(x)
+// fmt.Println(y)
+// fmt.Println(z)
+// }
+
+//Exercise 2
+
+// package main 
+// import "fmt"
+
+// var x int;
+
+// var y string;
+
+// vaar z bool;
+
+// func main(){
+
+// fmt.Println(x)
+// fmt.Println(y)
+// fmt.Println(z)
+// }
+
+//Exercise 3
+
+
+
+
+
 
 
